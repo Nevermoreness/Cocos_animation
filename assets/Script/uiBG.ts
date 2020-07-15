@@ -9,6 +9,9 @@ export default class uiBG extends cc.Component {
     onLoad() {
         this.viewUI = this.m_viewUI.getComponent(cc.Animation);
         this.m_viewUI.active = false;
+        this.viewUI.scaleToHidePlayEnd = function () {
+
+        }
     }
 
 
